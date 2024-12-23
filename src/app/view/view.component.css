@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+.myForm{
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 1px 3px 4px;
+    padding: 10px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: gainsboro;
+    position: relative;
+    display: block;
+    padding: 8px 0px;
+}
+.mylist{
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.myForm li{
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+a{
+    margin: 0px 50px;
+}

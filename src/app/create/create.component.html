@@ -1,0 +1,14 @@
+<div class="myForm">
+    <div class="header">
+        <h2>Create Employee Form</h2>
+    </div>
+    <form [formGroup]="createForm">
+        <input type="text" placeholder="Name" formControlName="name" required>
+        <input type="text" placeholder="Email" formControlName="email" required>
+        <input type="text" placeholder="Mobile" formControlName="mobile" required>
+        <input type="text" placeholder="Department" formControlName="department" required>
+        <button type="button" (click)="createEmp()">Create</button>
+        <a routerLink = "/dashboard">Go to Dashboard</a>
+        <p>{{message}}</p>
+    </form>
+</div>
