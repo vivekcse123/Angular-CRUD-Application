@@ -59,6 +59,9 @@ table a{
 }
 #delete{
     background-color: red;
+   width: 200px;
+  height:100px;
+  
 }
 .center{
     text-align: center;
